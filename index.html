@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rizky And Dinda</title>
+    <!-- SWEET ALERT 2 -->
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js
+"></script>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css
+"
+      rel="stylesheet"
+    />
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- simply countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Boostrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>Happy Birthday, <span></span></h4>
+        <h1>Dinda Sulistiawati</h1>
+        <p>Selamat Ulang Tahun Sayanggg 🥳🥳</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Tekan Sini Ayanggkuu</a>
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">RaDis</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">RaDis</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">rsvp</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Selamat Ulang Tahun</h2>
+            <h3>Yang ke 19 Tahun</h3>
+            <p>
+              Cieeeeee yang hari ini ulang tahun kalo kamu udah liat web ini
+              berarti kamu udah buka hadiah dari akuuu......
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Dinda</h3>
+                <p>
+                  ini akuuu Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam, illum.
+                </p>
+                <p>kekasihmuuu</p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/dinda.jpg"
+                  alt="Dinda"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-balloon-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/iki.jpg"
+                  alt="Rizky"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Rizky</h3>
+                <p>
+                  ini akuuu Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Aperiam, illum.
+                </p>
+                <p>kekasihmuuu</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Happy Birthday ayangkkuuu cintakuuu</h2>
+            <p class="alamat">
+              kamu inget ga, ini tempat pertama kali aku nembak kamuuuuu
+            </p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440.57302828200807!2d106.6920963914095!3d-6.346941714214918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e52f0d244823%3A0xe8d8bea9efdbfe78!2sPONDOK%20MAKAN%20CEMARA!5e0!3m2!1sid!2sid!4v1702450180882!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a
+              href="https://maps.app.goo.gl/q2thsnpYpqZ7cywy9"
+              target="_blank"
+              class="btn btn-light btn-sm my-4"
+              >Disini Kita Jadian</a
+            >
+            <p class="description">
+              Kamu tau ga waktu aku nembak kamu betapa deg deg an nya aku gatau
+              ampe harus gimana
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">kiwww yang lagi ulang tahunnn</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-cake2"></i>
+                    <span>for youuuuuuuuu</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Gausa Takut Ulang Tahun</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Cinta bersemi</span>
+            <h2>NAAJISSS JAMETT</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio odit magni, laboriosam exercitationem iure totam.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Meet</h3>
+                    <span>9 september</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ea.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Meet</h3>
+                    <span>9 september</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ea.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image" style="background-image: url(img/dinda.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Meet</h3>
+                    <span>9 september</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ea.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image" style="background-image: url(img/iki.jpg);"></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First Meet</h3>
+                    <span>9 september</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ea.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>FOTO FOTO SI JAMETT</span>
+            <h2>hiihi</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio odit magni, laboriosam exercitationem iure totam.</p>
+          </div>
+      </div>
+
+      <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+        <div class="col mt-3">
+          <a href="img/gallery/satu.jpg" data-toggle="lightbox" data-caption="Ini pertama kali kita main dan disini aku nembakk kamuu hehehehe" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/satu.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/dua.jpg" data-toggle="lightbox" data-caption="Ini juga aku pertama kali dapet pap dari kamuu🥰" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/dua.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/tiga.jpg" data-toggle="lightbox" data-caption="Gatau kenapa aku suka banget sama foto kamu disini" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/tiga.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/empat.jpg" data-toggle="lightbox" data-caption="Ini foto seminggu abis kita pacaran terus kamu posting ini duluan. Aku belum posting kamu sampe kaya salting2 sendiri lucu banget...heheehe " data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/empat.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh1.jpg" data-toggle="lightbox" data-caption="Kita, AKU DAN KAMU" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/1.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh2.jpg" data-toggle="lightbox" data-caption="Ini Pertama kali kita main dan disini aku nembakk kamuu hehehehe" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/2.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh3.jpg" data-toggle="lightbox" data-caption="Kita, AKU DAN KAMU" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/3.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/utuh4.jpg" data-toggle="lightbox" data-caption="Kita, AKU DAN KAMU" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/4.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/5.jpg" data-toggle="lightbox" data-caption="Kita, AKU DAN KAMU" data-gallery="ourgalerry">
+            <img src="img/gallery/thumbnail/5.jpg" alt="Kita" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Makasih sayang</h2>
+            <p>kasih tau aku kamu seneng apa ngga?</p>
+          </div>
+      </div>
+
+      <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST" 
+      action="https://script.google.com/macros/s/AKfycby-Y2Pp-VU1POH5qIMBeccX17bHUgxA1wBkiDn-XXvOtdBD7yYJCyT45Uwj3ppkPY-a/exec" id="my-form">
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="pesan" class="form-label">ketik pesan kamu sini yang</label>
+            <input type="text" class="form-control" id="pesan" name="pesan">
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="rate" class="form-label">rate 1-10</label>
+            <input type="number" class="form-control" id="rate" name="rate" min="1" max="10" length="1" value="1">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="status" class="form-label">ekspresi</label>
+            <select name="status" id="status" class="form-select">
+              <option selected>pilih salah satu</option>
+              <option value="1">Seneng 😊</option>
+              <option value="seneng aja">seneng aja 🤗</option>
+              <option value="seneg banget">seneng banget 🥰</option>
+              <option value="bahagia banget">bahagia banget 😘</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="col-12" style="margin-top: 35px;">
+          <button class="btn btn-primary">Kirimss</button>
+        </div>
+        </form>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://radiss.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>ungkapan sininininin</span>
+            <h2>ehemmm jangan lupa</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, libero.</p>
+          </div>
+      </div>
+
+      <div class="row justify-content-center text-center">
+        <div class="col-md-6">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="fw-bold">Dari Aku</div>
+              Selamat ulang tahun, cinta hatiku! Di hari istimewa ini, doaku agar setiap langkahmu dipenuhi dengan kebahagiaan, dan setiap detik kita bersama menjadi kenangan indah. Semoga tahun ini dan seterusnya penuh dengan cinta, sukses, dan petualangan yang menyenangkan. Aku harap setiap hari membawamu lebih dekat pada impian-impianmu, dan setiap momen bersama kita menjadi babak baru dalam kisah cinta kita. "I'm grateful to have you as a part of my life. Happy birthday, my love!"
+            </li>
+            <li class="list-group-item">
+              <div class="fw-bold">-------</div>
+              Aku harap setelah kamu liat ini kamu ngga takut lagi untuk ulang tahun 
+            </li>
+            <li class="list-group-item">
+              <div class="fw-bold">--------------------------------------------------</div>
+              
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2023 Rizkyy And Dinda.</small>
+            <small class="block">Design by <a href="https://instagram.com/rizkyydityaa">@rizkyydityaa</a></small>
+
+            <ul class="mt-3">
+              <li><a href="https://instagram.com/rizkyydityaa"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://tiktok.com/kerocogaming"><i class="bi bi-tiktok"></i></a></li>
+              <li><a href="https://twitter.com/rizkyydityaa"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="https://instagram.com/dindaslst_"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="https://facebook.com/dinda"><i class="bi bi-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="audio/likewejustmet.mp3" type="audio/mp3">
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2023, // required
+        month: 12, // required
+        day: 23, // required
+        hours: 23, // Default is 0 [0-23] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offCanvas = document.querySelector('.offcanvas');
+
+      offCanvas.addEventListener('show.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'visible';
+      });
+
+      offCanvas.addEventListener('hidden.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'hidden';
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector('.audio-icon-wrapper')
+      const audioIcon = document.querySelector('.audio-icon-wrapper i')
+      const song = document.querySelector('#song')
+      let isPlaying = false;
+
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft)
+        }
+
+        rootElement.style.scrollBehavior = 'auto';
+      }
+
+      function enableScroll() {
+        window.onscroll = function() {
+          
+        }
+        rootElement.style.scrollBehavior = 'smooth'
+        // localStorage.setItem('opened', 'true')
+        playAudio();
+      }
+
+      function playAudio() {
+        song.play();
+        audioIconWrapper.style.display = 'flex'
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function() {
+        if(isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc')
+          audioIcon.classList.add('bi-pause-circle')
+        } else {
+          song.play();
+          audioIcon.classList.add('bi-disc')
+          audioIcon.classList.remove('bi-pause-circle')
+        }
+        isPlaying = !isPlaying;
+      }
+
+      disableScroll()
+      // if(!localStorage.getItem('opened')) {
+      //   disableScroll()
+      // }
+    </script>
+
+    <script>
+  window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      Swal.fire({
+              position: "center",
+              icon: "success",
+              title: "Makasih Ayanggg hehe..🥰😘😘",
+              color: "#14b8a6",
+              showConfirmButton: false,
+              timer: 2000,
+            });
+    })
+  });
+});
+
+    </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get('n') || '';
+
+      const namaContainer = document.querySelector('.hero h4 span')
+      namaContainer.innerText = nama;
+    </script>
+
+  </body>
+</html>
